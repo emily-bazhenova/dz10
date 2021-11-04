@@ -144,6 +144,52 @@ ul {
   margin: 0;
 }
 
+.card {
+  position: relative;
+}
+
+.hover {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 380px;
+  height: 470px;
+  top: -10px;
+  left: -10px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(239, 139, 138, 0.8) 0%,
+    rgba(229, 207, 130, 0.8) 100%
+  );
+  opacity: 0;
+}
+
+.hover:hover {
+  opacity: 1;
+}
+
+.social-list {
+  display: flex;
+  align-items: center;
+}
+.social-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 57px;
+  height: 57px;
+  background: #fce38a;
+  margin-right: 1px;
+}
+
+.social-item:last-child {
+  margin: 0;
+}
+.social-item:hover {
+  background-color: #95e1d3;
+}
+
 .services {
   width: 1200px;
   margin: 0 auto;
