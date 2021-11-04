@@ -174,13 +174,18 @@ ul {
   align-items: center;
 }
 .social-item {
+  width: 57px;
+  height: 57px;
+  background: #fce38a;
+  margin-right: 1px;
+}
+
+.social-link {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 57px;
   height: 57px;
-  background: #fce38a;
-  margin-right: 1px;
 }
 
 .social-item:last-child {
