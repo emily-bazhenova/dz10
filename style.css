@@ -155,8 +155,8 @@ ul {
   justify-content: center;
   width: 380px;
   height: 470px;
-  top: 0px;
-  left: 0px;
+  top: 10px;
+  left: 10px;
 
   background: linear-gradient(
     180deg,
@@ -169,7 +169,7 @@ ul {
 
 .card:hover .hover {
   opacity: 1;
-  transform: translate(-10px, -10px);
+  transform: translate(-20px, -20px);
 }
 
 .social-list {
@@ -182,7 +182,7 @@ ul {
   margin-top: 205px;
   opacity: 1;
   transition-duration: 750ms;
-  transition-delay: 350ms;
+  transition-delay: 400ms;
 }
 
 .social-item {
