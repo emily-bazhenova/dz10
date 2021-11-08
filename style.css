@@ -39,6 +39,7 @@ h3 {
   line-height: 17px;
   text-transform: uppercase;
   color: #95e1d3;
+  transition-duration: 150ms;
 }
 
 .nav-link.active {
@@ -189,6 +190,7 @@ ul {
   height: 57px;
   background: #fce38a;
   margin-right: 1px;
+  transition-duration: 150ms;
 }
 
 .social-link {
