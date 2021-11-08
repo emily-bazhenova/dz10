@@ -173,7 +173,6 @@ ul {
 
 .social-list {
   display: flex;
-  /* align-items: flex-end; */
   opacity: 0;
   margin-top: 100%;
   transition-duration: 750ms;
@@ -183,7 +182,6 @@ ul {
 .card:hover .social-list {
   margin-top: 205px;
   opacity: 1;
-  /* align-items: center; */
 }
 
 .social-item {
