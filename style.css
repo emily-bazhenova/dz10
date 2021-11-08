@@ -175,13 +175,13 @@ ul {
   display: flex;
   opacity: 0;
   margin-top: 100%;
-  transition-duration: 750ms;
-  transition-delay: 350ms;
 }
 
 .card:hover .social-list {
   margin-top: 205px;
   opacity: 1;
+  transition-duration: 750ms;
+  transition-delay: 350ms;
 }
 
 .social-item {
