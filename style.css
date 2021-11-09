@@ -33,6 +33,10 @@ h3 {
   margin-left: 55px;
 }
 
+.nav-item:first-child {
+  margin-left: 0;
+}
+
 .nav-link {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
@@ -211,7 +215,7 @@ ul {
 .services {
   width: 1200px;
   margin: 0 auto;
-  padding-top: 68px;
+  margin-top: 68px;
   text-align: center;
 }
 
