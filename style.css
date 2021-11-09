@@ -168,6 +168,7 @@ ul {
     rgba(229, 207, 130, 0.8) 100%
   );
   opacity: 0;
+  overflow: hidden;
   transition-duration: 750ms;
 }
 
