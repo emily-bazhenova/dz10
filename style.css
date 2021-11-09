@@ -181,7 +181,7 @@ ul {
 .card:hover .social-list {
   opacity: 1;
   transition-duration: 750ms;
-  transition-delay: 400ms;
+  transition-delay: 300ms;
   transform: translateY(45%);
 }
 
